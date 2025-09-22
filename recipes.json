@@ -1,0 +1,1220 @@
+[
+  {
+    "id": "baked kale chips",
+    "title": "Baked Kale Chips",
+    "category": "snacks",
+    "description": "A Healthy alternative to traditional chips, packed with Vitamins and Fiber.",
+    "image": "Images/snack1.jpg",
+    "ingredients": [
+      "1 bunch kale",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Preheat oven to 150°C (300°F).",
+      "Wash and dry kale, remove stems, tear leaves into bite-sized pieces.",
+      "Toss with olive oil and salt.",
+      "Spread evenly on a baking sheet.",
+      "Bake for 10–15 minutes until crisp."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "60 kcal", "dailyValue": "3%"},
+      {"name": "Protein", "amount": "2 g", "dailyValue": "4%"},
+      {"name": "Carbohydrates", "amount": "7 g", "dailyValue": "2%"},
+      {"name": "Fat", "amount": "3 g", "dailyValue": "4%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "7%"},
+      {"name": "Sodium", "amount": "80 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "baked banana chips",
+    "title": "Baked Banana Chips",
+    "category": "snacks",
+    "description": "Protein-packed quinoa with fresh vegetables and tangy dressing",
+    "image": "Images/snack2.jpg",
+    "ingredients": [
+      "2 ripe bananas",
+      "1 tbsp lemon juice",
+      "1 tbsp coconut oil"
+    ],
+    "steps": [
+      "Preheat oven to 120°C (250°F).",
+      "Slice bananas thinly and brush with lemon juice",
+      "Lightly coat a baking sheet with coconut oil.",
+      "Arrange slices evenly and bake for 2–3 hours, flipping halfway.",
+      "Cool before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "105 kcal", "dailyValue": "5%"},
+      {"name": "Protein", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Carbohydrates", "amount": "27 g", "dailyValue": "9%"},
+      {"name": "Fat", "amount": "0 g", "dailyValue": "0%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "11%"},
+      {"name": "Sodium", "amount": "1 mg", "dailyValue": "0%"}
+    ]
+  },
+  {
+    "id": "baked-salmon-veggies",
+    "title": "Baked Salmon With Veggies",
+    "category": "meals",
+    "description": "Oven-baked salmon fillet with a medley of roasted vegetables.",
+    "image": "Images/meal1.jpg",
+    "ingredients": [
+      "150g salmon fillet",
+      "1 cup mixed vegetables (broccoli, carrots, bell peppers)",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F (200°C).",
+      "Place salmon on a baking sheet, drizzle with olive oil and lemon juice, season with salt and pepper.",
+      "Add vegetables around the salmon.",
+      "Bake for 15–20 minutes until salmon is cooked through and vegetables are tender.",
+      "Serve hot."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "380 kcal", "dailyValue": "19%"},
+      {"name": "Protein", "amount": "35 g", "dailyValue": "70%"},
+      {"name": "Carbohydrates", "amount": "20 g", "dailyValue": "7%"},
+      {"name": "Fat", "amount": "18 g", "dailyValue": "28%"},
+      {"name": "Fiber", "amount": "5 g", "dailyValue": "20%"},
+      {"name": "Sodium", "amount": "250 mg", "dailyValue": "10%"}
+    ]
+  },
+  {
+    "id": "fruit-yogurt-parfait",
+    "title": "Fruit and Yogurt Parfait",
+    "category": "snacks",
+    "description": "Layers of fresh fruits, Greek yogurt, and granola for a wholesome and tasty snack.",
+    "image": "Images/snack3.jpg",
+    "ingredients": [
+      "½ cup Greek yogurt",
+      "½ cup mixed fruits (berries, banana, mango)",
+      "2 tbsp granola"
+    ],
+    "steps": [
+      "Layer yogurt, fruits, and granola in a glass.",
+      "Repeat layers if desired and serve immediately."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "150 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "6 g", "dailyValue": "12%"},
+      {"name": "Carbohydrates", "amount": "20 g", "dailyValue": "7%"},
+      {"name": "Fat", "amount": "4 g", "dailyValue": "6%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "50 mg", "dailyValue": "2%"}
+    ]
+  },
+  {
+    "id": "chicken-stir-fry",
+    "title": "Egg White Omelette",
+    "category": "Protein",
+    "description": "Light, Fluffy, and Protein-Loaded.It's a healthy choice for breakfast or a post-workout meal.",
+    "image": "Images/Protein3.jpg",
+    "ingredients": [
+      "4 large egg whites",
+      "1 tbsp low-fat milk (optional, for fluffiness)",
+      "1 tsp olive oil or cooking spray",
+      "¼ cup spinach (chopped)",
+      "¼ cup bell peppers (diced)",
+      "2 tbsp onions (chopped)",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, whisk egg whites (and milk if using) until slightly frothy.",
+      "Heat olive oil in a non-stick pan over medium heat.",
+      "Sauté onions, peppers, and spinach for 2–3 minutes.",
+      "Pour egg whites into the pan, spreading evenly.",
+      "Cook until edges firm up, then gently fold in half.",
+      "Cook another 1–2 minutes and serve hot."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "380 kcal", "dailyValue": "19%"},
+      {"name": "Protein", "amount": "35 g", "dailyValue": "70%"},
+      {"name": "Carbohydrates", "amount": "20 g", "dailyValue": "7%"},
+      {"name": "Fat", "amount": "18 g", "dailyValue": "28%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "890 mg", "dailyValue": "37%"}
+    ]
+  },
+  {
+    "id": "chia-pudding",
+    "title": "Berry Chia Pudding",
+    "category": "smoothies",
+    "description": "A healthy and delicious dessert packed with antioxidants and omega-3s",
+    "image": "Images/sm6.jpg",
+    "ingredients": [
+      "1/4 cup chia seeds",
+      "1 cup almond milk (or any milk of choice)",
+      "1 tablespoon maple syrup or honey",
+      "1/2 teaspoon vanilla extract",
+      "1/2 cup mixed berries (fresh or frozen)",
+      "1 tablespoon chopped nuts (optional)",
+      "Extra berries for topping"
+    ],
+    "steps": [
+      "In a bowl or jar, combine chia seeds, almond milk, maple syrup, and vanilla extract.",
+      "Whisk well to combine, making sure there are no clumps of chia seeds.",
+      "Stir in the mixed berries.",
+      "Cover and refrigerate for at least 4 hours or overnight, until the mixture has thickened to a pudding-like consistency.",
+      "Stir the pudding before serving to ensure even consistency.",
+      "Top with additional fresh berries and chopped nuts if desired.",
+      "Serve cold."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "220 kcal", "dailyValue": "11%"},
+      {"name": "Protein", "amount": "6 g", "dailyValue": "12%"},
+      {"name": "Carbohydrates", "amount": "25 g", "dailyValue": "8%"},
+      {"name": "Fat", "amount": "12 g", "dailyValue": "18%"},
+      {"name": "Fiber", "amount": "10 g", "dailyValue": "40%"},
+      {"name": "Sodium", "amount": "80 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "lemon-tahini-dressing",
+    "title": "Lemon-Tahini Dressing",
+    "category": "Dressing",
+    "description": "A tangy and creamy dressing made with tahini, lemon juice, and garlic.",
+    "image": "Images/DRE2.jpg",
+    "ingredients": [
+      "3 tbsp tahini",
+      "2 tbsp lemon juice",
+      "1 garlic clove (minced)",
+      "2 tbsp water (to thin)",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Whisk tahini, lemon juice, garlic, and water in a bowl until smooth.",
+      "Season with salt and pepper.",
+      "Adjust consistency with extra water if needed."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "90 kcal", "dailyValue": "5%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "4 g", "dailyValue": "1%"},
+      {"name": "Fat", "amount": "7 g", "dailyValue": "11%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "70 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "mixed-nuts",
+    "title": "Mixed Nuts",
+    "category": "snacks",
+    "description": "A healthy handful of mixed nuts providing protein, healthy fats, and fiber.",
+    "image": "Images/snack4.jpg",
+    "ingredients": [
+      "¼ cup almonds",
+      "¼ cup walnuts",
+      "¼ cup cashews",
+      "¼ cup pistachios"
+    ],
+    "steps": [
+      "Mix all nuts in a bowl.",
+      "Serve as a snack or store in an airtight container."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "200 kcal", "dailyValue": "10%"},
+      {"name": "Protein", "amount": "6 g", "dailyValue": "12%"},
+      {"name": "Carbohydrates", "amount": "8 g", "dailyValue": "3%"},
+      {"name": "Fat", "amount": "18 g", "dailyValue": "28%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "0 mg", "dailyValue": "0%"}
+    ]
+  },
+  {
+    "id": "green-goddess-salad",
+    "title": "Green Goddess Salad",
+    "category": "Salad",
+    "description": "A flavorful salad with green veggies, avocado, and a creamy dressing.",
+    "image": "Images/salad5.jpg",
+    "ingredients": [
+      "2 cups mixed greens",
+      "½ avocado (sliced)",
+      "½ cup cucumber (sliced)",
+      "2 tbsp Green Goddess dressing",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Combine greens, avocado, and cucumber in a bowl.",
+      "Drizzle with Green Goddess dressing.",
+      "Season with salt and pepper and toss gently."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "180 kcal", "dailyValue": "9%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "14 g", "dailyValue": "22%"},
+      {"name": "Fiber", "amount": "5 g", "dailyValue": "20%"},
+      {"name": "Sodium", "amount": "120 mg", "dailyValue": "5%"}
+    ]
+  },
+  {
+    "id": "green-detox-smoothie",
+    "title": "Green Detox Smoothie",
+    "category": "smoothies",
+    "description": "A nutrient-packed smoothie with spinach, kale, and green fruits for a detox boost.",
+    "image": "Images/sm3.jpg",
+    "ingredients": [
+      "1 cup spinach",
+      "½ cup kale leaves",
+      "1 green apple (chopped)",
+      "1 banana",
+      "1 cup water or coconut water",
+      "Ice cubes as needed"
+    ],
+    "steps": [
+      "Place all ingredients in a blender.",
+      "Blend until smooth.",
+      "Serve immediately for best freshness."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "140 kcal", "dailyValue": "7%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "30 g", "dailyValue": "10%"},
+      {"name": "Fat", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Fiber", "amount": "6 g", "dailyValue": "24%"},
+      {"name": "Sodium", "amount": "40 mg", "dailyValue": "2%"}
+    ]
+  },
+  {
+    "id": "papaya-fruit-bowl",
+    "title": "Papaya Fruit Bowl",
+    "category": "smoothies",
+    "description": "A refreshing bowl of ripe papaya, drizzled with lime juice and topped with seeds or nuts.",
+    "image": "Images/sm2.jpg",
+    "ingredients": [
+      "1 ripe papaya (peeled and cubed)",
+      "1 tbsp lime juice",
+      "1 tsp chia seeds or pumpkin seeds (optional)"
+    ],
+    "steps": [
+      "Place papaya cubes in a bowl.",
+      "Drizzle with lime juice.",
+      "Sprinkle seeds or nuts if desired and serve."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "100 kcal", "dailyValue": "5%"},
+      {"name": "Protein", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Carbohydrates", "amount": "25 g", "dailyValue": "8%"},
+      {"name": "Fat", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "5 mg", "dailyValue": "0%"}
+    ]
+  },
+  {
+    "id": "almond-flour-cookies",
+    "title": "Almond Flour Cookies",
+    "category": "bakes",
+    "description": "Gluten-free, chewy cookies made with almond flour and natural sweeteners.",
+    "image": "Images/Bakes6.jpg",
+    "ingredients": [
+      "2 cups almond flour",
+      "½ tsp baking soda",
+      "¼ tsp salt",
+      "¼ cup honey or maple syrup",
+      "1 egg",
+      "1 tsp vanilla extract",
+      "2 tbsp coconut oil (melted)"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C) and line a baking sheet.",
+      "Mix almond flour, baking soda, and salt.",
+      "Whisk egg, honey, vanilla, and coconut oil in a separate bowl.",
+      "Combine wet and dry ingredients to form dough.",
+      "Scoop dough onto baking sheet and flatten slightly.",
+      "Bake 12–15 minutes until edges are golden. Cool before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "120 kcal", "dailyValue": "6%"},
+      {"name": "Protein", "amount": "4 g", "dailyValue": "8%"},
+      {"name": "Carbohydrates", "amount": "6 g", "dailyValue": "2%"},
+      {"name": "Fat", "amount": "9 g", "dailyValue": "14%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "80 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "avocado-dip",
+    "title": "Avocado Dip",
+    "category": "dips",
+    "description": "A creamy and nutritious dip made with avocado, lime, and seasonings.",
+    "image": "Images/DRE4.jpg",
+    "ingredients": [
+      "2 ripe avocados",
+      "2 tbsp lime juice",
+      "1 garlic clove (minced)",
+      "2 tbsp cilantro (chopped)",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Mash avocados in a bowl.",
+      "Add lime juice, garlic, cilantro, salt, and pepper.",
+      "Mix until creamy and smooth.",
+      "Serve immediately with chips or veggies."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "180 kcal", "dailyValue": "9%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "15 g", "dailyValue": "23%"},
+      {"name": "Fiber", "amount": "7 g", "dailyValue": "28%"},
+      {"name": "Sodium", "amount": "120 mg", "dailyValue": "5%"}
+    ]
+  },
+  {
+    "id": "beef-veggie-stirfry",
+    "title": "Beef and Veggie Stir-Fry",
+    "category": "protein",
+    "description": "A savory and quick stir-fry made with lean beef and colorful vegetables.",
+    "image": "Images/Protein4.jpg",
+    "ingredients": [
+      "200g lean beef (sliced thin)",
+      "1 cup broccoli florets",
+      "½ cup bell peppers (sliced)",
+      "½ cup carrots (julienned)",
+      "2 tbsp soy sauce (low sodium)",
+      "1 tsp sesame oil",
+      "2 cloves garlic (minced)",
+      "1 tsp ginger (grated)"
+    ],
+    "steps": [
+      "Heat sesame oil in a wok over medium-high heat.",
+      "Add garlic and ginger, stir-fry for 30 seconds.",
+      "Add beef slices and cook until browned.",
+      "Toss in broccoli, peppers, and carrots.",
+      "Add soy sauce and stir-fry for another 3–4 minutes.",
+      "Serve hot with or without rice."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "380 kcal", "dailyValue": "19%"},
+      {"name": "Protein", "amount": "35 g", "dailyValue": "70%"},
+      {"name": "Carbohydrates", "amount": "20 g", "dailyValue": "7%"},
+      {"name": "Fat", "amount": "18 g", "dailyValue": "28%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "890 mg", "dailyValue": "37%"}
+    ]
+  },
+  {
+    "id": "blackbean-quinoa-chili",
+    "title": "Black Bean and Quinoa Chili",
+    "category": "protein",
+    "description": "A protein-packed vegetarian chili with black beans, quinoa, and spices.",
+    "image": "Images/Protein6.jpg",
+    "ingredients": [
+      "1 cup cooked quinoa",
+      "1 can black beans (drained and rinsed)",
+      "1 onion (chopped)",
+      "1 cup bell peppers (chopped)",
+      "2 cloves garlic (minced)",
+      "1 can diced tomatoes",
+      "2 tsp chili powder",
+      "1 tbsp olive oil"
+    ],
+    "steps": [
+      "Heat olive oil in a pot and sauté onions, garlic, and peppers.",
+      "Add chili powder and stir for 1 minute.",
+      "Mix in black beans, diced tomatoes, and quinoa.",
+      "Simmer for 15 minutes until flavors combine.",
+      "Serve hot with optional toppings like avocado or cheese."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "350 kcal", "dailyValue": "18%"},
+      {"name": "Protein", "amount": "15 g", "dailyValue": "30%"},
+      {"name": "Carbohydrates", "amount": "55 g", "dailyValue": "18%"},
+      {"name": "Fat", "amount": "9 g", "dailyValue": "14%"},
+      {"name": "Fiber", "amount": "12 g", "dailyValue": "48%"},
+      {"name": "Sodium", "amount": "600 mg", "dailyValue": "25%"}
+    ]
+  },
+  {
+    "id": "honey-mustard-dressing",
+    "title": "Honey Mustard Dressing",
+    "category": "dips",
+    "description": "A sweet and tangy dressing made with honey, mustard, and yogurt.",
+    "image": "Images/DRE5.jpg",
+    "ingredients": [
+      "2 tbsp Dijon mustard",
+      "2 tbsp honey",
+      "2 tbsp Greek yogurt",
+      "1 tbsp apple cider vinegar",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, whisk together mustard, honey, yogurt, and vinegar.",
+      "Season with salt and pepper.",
+      "Chill for 10 minutes before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "60 kcal", "dailyValue": "3%"},
+      {"name": "Protein", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Fiber", "amount": "0 g", "dailyValue": "0%"},
+      {"name": "Sodium", "amount": "100 mg", "dailyValue": "4%"}
+    ]
+  },
+  {
+    "id": "veggie-pasta-primavera",
+    "title": "Veggie Pasta Primavera",
+    "category": "Vegetarian",
+    "description": "A colorful pasta dish packed with seasonal vegetables and light olive oil sauce.",
+    "image": "Images/Veggie4.jpg",
+    "ingredients": [
+      "200g whole-wheat pasta",
+      "1 cup broccoli florets",
+      "½ cup bell peppers (sliced)",
+      "½ cup zucchini (sliced)",
+      "2 tbsp olive oil",
+      "2 cloves garlic (minced)",
+      "Salt and black pepper to taste",
+      "Parmesan cheese for garnish (optional)"
+    ],
+    "steps": [
+      "Cook pasta according to package instructions.",
+      "In a pan, heat olive oil and sauté garlic.",
+      "Add broccoli, zucchini, and bell peppers; cook until tender-crisp.",
+      "Toss vegetables with pasta and season with salt and pepper.",
+      "Serve with grated Parmesan if desired."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "420 kcal", "dailyValue": "21%"},
+      {"name": "Protein", "amount": "15 g", "dailyValue": "30%"},
+      {"name": "Carbohydrates", "amount": "65 g", "dailyValue": "22%"},
+      {"name": "Fat", "amount": "10 g", "dailyValue": "15%"},
+      {"name": "Fiber", "amount": "9 g", "dailyValue": "36%"},
+      {"name": "Sodium", "amount": "320 mg", "dailyValue": "13%"}
+    ]
+  },
+  {
+    "id": "paneer-salad-bowl",
+    "title": "Paneer Salad Bowl",
+    "category": "Vegetarian",
+    "description": "A refreshing salad bowl with grilled paneer, greens, and a tangy dressing.",
+    "image": "Images/Veggie3.jpg",
+    "ingredients": [
+      "150g paneer (cubed)",
+      "2 cups mixed greens",
+      "½ cup cucumber (sliced)",
+      "½ cup cherry tomatoes",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Heat 1 tbsp olive oil in a pan and grill paneer cubes until golden.",
+      "In a bowl, combine greens, cucumber, and tomatoes.",
+      "Add grilled paneer and drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "350 kcal", "dailyValue": "18%"},
+      {"name": "Protein", "amount": "18 g", "dailyValue": "36%"},
+      {"name": "Carbohydrates", "amount": "14 g", "dailyValue": "5%"},
+      {"name": "Fat", "amount": "24 g", "dailyValue": "37%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "300 mg", "dailyValue": "12%"}
+    ]
+  },
+  {
+    "id": "zucchini-bread",
+    "title": "Zucchini Bread",
+    "category": "Baked Goods",
+    "description": "A moist and healthy quick bread made with fresh zucchini and warm spices.",
+    "image": "Images/Bakes4.jpg",
+    "ingredients": [
+      "2 cups grated zucchini",
+      "1½ cups whole wheat flour",
+      "1 tsp baking soda",
+      "½ tsp baking powder",
+      "½ tsp salt",
+      "1 tsp cinnamon",
+      "2 eggs",
+      "½ cup honey or maple syrup",
+      "¼ cup olive oil"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C) and grease a loaf pan.",
+      "Mix dry ingredients (flour, baking soda, baking powder, salt, cinnamon) in a bowl.",
+      "In another bowl, whisk eggs, honey, and olive oil.",
+      "Fold in zucchini and then combine with dry ingredients.",
+      "Pour batter into pan and bake for 50–60 minutes.",
+      "Cool before slicing and serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "180 kcal", "dailyValue": "9%"},
+      {"name": "Protein", "amount": "4 g", "dailyValue": "8%"},
+      {"name": "Carbohydrates", "amount": "30 g", "dailyValue": "10%"},
+      {"name": "Fat", "amount": "6 g", "dailyValue": "9%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "150 mg", "dailyValue": "6%"}
+    ]
+  },
+  {
+    "id": "lentil-curry",
+    "title": "Lentil Curry",
+    "category": "vegetarian",
+    "description": "A hearty lentil curry simmered with tomatoes, spices, and herbs.",
+    "image": "Images/meal5.jpg",
+    "ingredients": [
+      "1 cup red lentils",
+      "1 onion (chopped)",
+      "2 tomatoes (chopped)",
+      "2 cloves garlic (minced)",
+      "1 tsp cumin",
+      "1 tsp turmeric",
+      "1 tsp olive oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Heat olive oil and sauté onion and garlic until soft.",
+      "Add tomatoes and spices; cook 2–3 minutes.",
+      "Add lentils and 2 cups water; simmer until lentils are tender.",
+      "Serve hot with rice or bread."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "320 kcal", "dailyValue": "16%"},
+      {"name": "Protein", "amount": "18 g", "dailyValue": "36%"},
+      {"name": "Carbohydrates", "amount": "45 g", "dailyValue": "15%"},
+      {"name": "Fat", "amount": "5 g", "dailyValue": "8%"},
+      {"name": "Fiber", "amount": "12 g", "dailyValue": "48%"},
+      {"name": "Sodium", "amount": "400 mg", "dailyValue": "17%"}
+    ]
+  },
+   {
+    "id": "tomato-cucumber-salad",
+    "title": "Tomato Cucumber Salad",
+    "category": "Salad",
+    "description": "A refreshing and simple salad with tomatoes, cucumbers, and a light vinaigrette.",
+    "image": "Images/salad1.jpg",
+    "ingredients": [
+      "1 cup cherry tomatoes (halved)",
+      "1 cucumber (sliced)",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste",
+      "Fresh herbs (optional)"
+    ],
+    "steps": [
+      "Combine tomatoes and cucumber in a bowl.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt, pepper, and herbs. Toss gently and serve."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "80 kcal", "dailyValue": "4%"},
+      {"name": "Protein", "amount": "2 g", "dailyValue": "4%"},
+      {"name": "Carbohydrates", "amount": "10 g", "dailyValue": "3%"},
+      {"name": "Fat", "amount": "4 g", "dailyValue": "6%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "50 mg", "dailyValue": "2%"}
+    ]
+  },
+  {
+    "id": "summer-corn-salad-asparagus",
+    "title": "Summer Corn Salad With Asparagus",
+    "category": "salads",
+    "description": "A light and crisp summer salad with sweet corn, asparagus, and a lemony dressing.",
+    "image": "Images/salad6.jpg",
+    "ingredients": [
+      "1 cup corn kernels (fresh or cooked)",
+      "½ cup asparagus (cut into 1-inch pieces)",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Blanch asparagus until tender-crisp.",
+      "Combine corn and asparagus in a bowl.",
+      "Drizzle with olive oil and lemon juice.",
+      "Season with salt and pepper and serve."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "120 kcal", "dailyValue": "6%"},
+      {"name": "Protein", "amount": "4 g", "dailyValue": "8%"},
+      {"name": "Carbohydrates", "amount": "18 g", "dailyValue": "6%"},
+      {"name": "Fat", "amount": "5 g", "dailyValue": "8%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "60 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "carrot-celery-sticks-hummus",
+    "title": "Carrot and Celery Sticks with Hummus",
+    "category": "snacks",
+    "description": "Crisp carrot and celery sticks served with creamy hummus for a healthy and satisfying snack.",
+    "image": "Images/snack5.jpg",
+    "ingredients": [
+      "1 cup carrot sticks",
+      "1 cup celery sticks",
+      "¼ cup hummus"
+    ],
+    "steps": [
+      "Wash and cut carrots and celery into sticks.",
+      "Serve with hummus as a dipping sauce."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "100 kcal", "dailyValue": "5%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "5 g", "dailyValue": "8%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "60 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "tuna-avocado-salad",
+    "title": "Tuna Avocado Salad",
+    "category": "protein",
+    "description": "A refreshing and creamy salad with tuna, avocado, and fresh veggies.",
+    "image": "Images/Protein1.jpg",
+    "ingredients": [
+      "1 can tuna (in water, drained)",
+      "1 ripe avocado (diced)",
+      "½ cup cucumber (diced)",
+      "¼ cup red onion (chopped)",
+      "2 tbsp olive oil",
+      "1 tbsp lemon juice",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, mash avocado with lemon juice.",
+      "Add tuna, cucumber, and onion.",
+      "Mix gently with olive oil, salt, and pepper.",
+      "Serve chilled or with whole-grain bread."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "300 kcal", "dailyValue": "15%"},
+      {"name": "Protein", "amount": "25 g", "dailyValue": "50%"},
+      {"name": "Carbohydrates", "amount": "10 g", "dailyValue": "3%"},
+      {"name": "Fat", "amount": "18 g", "dailyValue": "28%"},
+      {"name": "Fiber", "amount": "6 g", "dailyValue": "24%"},
+      {"name": "Sodium", "amount": "450 mg", "dailyValue": "19%"}
+    ]
+  },
+  {
+    "id": "classic-hummus",
+    "title": "Classic Hummus",
+    "category": "dips",
+    "description": "A creamy Middle Eastern dip made with chickpeas, tahini, garlic, and lemon.",
+    "image": "Images/DRE3.jpg",
+    "ingredients": [
+      "1 can chickpeas (drained and rinsed)",
+      "2 tbsp tahini",
+      "2 tbsp olive oil",
+      "2 tbsp lemon juice",
+      "1 garlic clove",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Add chickpeas, tahini, lemon juice, garlic, and olive oil to a food processor.",
+      "Blend until smooth, adding water if needed for consistency.",
+      "Season with salt and serve with pita or veggies."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "150 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "5 g", "dailyValue": "10%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "9 g", "dailyValue": "14%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "200 mg", "dailyValue": "8%"}
+    ]
+  },
+  {
+    "id": "spinach-cheese-stuffed-peppers",
+    "title": "Spinach and Cheese Stuffed Peppers",
+    "category": "vegetarian",
+    "description": "Bell peppers stuffed with spinach, cheese, and herbs, baked to perfection.",
+    "image": "Images/DRE3.jpg",
+    "ingredients": [
+      "4 bell peppers (halved and seeded)",
+      "1 cup spinach (chopped)",
+      "½ cup ricotta cheese",
+      "½ cup mozzarella cheese (shredded)",
+      "1 tbsp olive oil",
+      "1 tsp oregano",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix spinach, ricotta, mozzarella, oregano, salt, and pepper in a bowl.",
+      "Stuff each bell pepper half with the mixture.",
+      "Place peppers on a baking tray, drizzle with olive oil.",
+      "Bake for 20–25 minutes until peppers are tender and cheese is melted."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "280 kcal", "dailyValue": "14%"},
+      {"name": "Protein", "amount": "14 g", "dailyValue": "28%"},
+      {"name": "Carbohydrates", "amount": "18 g", "dailyValue": "6%"},
+      {"name": "Fat", "amount": "15 g", "dailyValue": "23%"},
+      {"name": "Fiber", "amount": "5 g", "dailyValue": "20%"},
+      {"name": "Sodium", "amount": "360 mg", "dailyValue": "15%"}
+    ]
+  },
+  {
+    "id": "greek-yogurt-ranch",
+    "title": "Greek Yogurt Ranch",
+    "category": "Dressing",
+    "description": "A healthy twist on ranch dressing using Greek yogurt, herbs, and garlic.",
+    "image": "Images/DRE1.jpg",
+    "ingredients": [
+      "½ cup Greek yogurt",
+      "1 tbsp olive oil",
+      "1 garlic clove (minced)",
+      "1 tsp dried dill",
+      "1 tsp parsley",
+      "2 tbsp lemon juice",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Mix yogurt, olive oil, lemon juice, garlic, dill, and parsley in a bowl.",
+      "Season with salt and pepper.",
+      "Chill for 20 minutes before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "70 kcal", "dailyValue": "4%"},
+      {"name": "Protein", "amount": "5 g", "dailyValue": "10%"},
+      {"name": "Carbohydrates", "amount": "4 g", "dailyValue": "1%"},
+      {"name": "Fat", "amount": "3 g", "dailyValue": "5%"},
+      {"name": "Fiber", "amount": "0 g", "dailyValue": "0%"},
+      {"name": "Sodium", "amount": "120 mg", "dailyValue": "5%"}
+    ]
+  },
+  {
+    "id": "vegetable-soup",
+    "title": "Vegetable Soup",
+    "category": "vegetarian",
+    "description": "A comforting soup with mixed vegetables simmered in a light broth.",
+    "image": "Images/Veggie2.jpg",
+    "ingredients": [
+      "1 onion (chopped)",
+      "2 carrots (sliced)",
+      "1 cup cabbage (chopped)",
+      "1 cup green beans (chopped)",
+      "1 cup vegetable broth",
+      "2 tbsp olive oil",
+      "2 cloves garlic (minced)",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "Heat olive oil in a pot and sauté onion and garlic.",
+      "Add carrots, beans, and cabbage; cook for 5 minutes.",
+      "Pour in vegetable broth and simmer for 15–20 minutes.",
+      "Season with salt and pepper before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "150 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "5 g", "dailyValue": "10%"},
+      {"name": "Carbohydrates", "amount": "28 g", "dailyValue": "9%"},
+      {"name": "Fat", "amount": "4 g", "dailyValue": "6%"},
+      {"name": "Fiber", "amount": "7 g", "dailyValue": "28%"},
+      {"name": "Sodium", "amount": "420 mg", "dailyValue": "18%"}
+    ]
+  },
+  {
+    "id": "chicken-salad-yogurt",
+    "title": "Chicken Salad with Yogurt Dressing",
+    "category": "protein",
+    "description": "A creamy and healthy chicken salad made with Greek yogurt instead of mayo.",
+    "image": "Images/Protein2.jpg",
+    "ingredients": [
+      "200g cooked chicken breast (shredded)",
+      "½ cup Greek yogurt",
+      "¼ cup celery (chopped)",
+      "¼ cup red grapes (halved)",
+      "1 tbsp lemon juice",
+      "1 tsp Dijon mustard",
+      "Salt and black pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, mix Greek yogurt, lemon juice, and Dijon mustard.",
+      "Add chicken, celery, and grapes to the mixture.",
+      "Stir until well combined.",
+      "Season with salt and pepper.",
+      "Serve chilled as a salad or sandwich filling."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "320 kcal", "dailyValue": "16%"},
+      {"name": "Protein", "amount": "35 g", "dailyValue": "70%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "10 g", "dailyValue": "15%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "420 mg", "dailyValue": "18%"}
+    ]
+  },
+  {
+    "id": "salsa-fresca",
+    "title": "Salsa Fresca",
+    "category": "dips",
+    "description": "A fresh and zesty tomato-based salsa with onions, cilantro, and lime.",
+    "image": "Images/DRE6.jpg",
+    "ingredients": [
+      "2 medium tomatoes (diced)",
+      "½ red onion (finely chopped)",
+      "1 jalapeño (seeded and minced)",
+      "¼ cup fresh cilantro (chopped)",
+      "2 tbsp lime juice",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Combine tomatoes, onion, jalapeño, and cilantro in a bowl.",
+      "Add lime juice and salt.",
+      "Mix well and refrigerate for 15 minutes before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "25 kcal", "dailyValue": "1%"},
+      {"name": "Protein", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Carbohydrates", "amount": "6 g", "dailyValue": "2%"},
+      {"name": "Fat", "amount": "0 g", "dailyValue": "0%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "150 mg", "dailyValue": "6%"}
+    ]
+  },
+  {
+    "id": "oatmeal-banana-muffins",
+    "title": "Oatmeal Banana Muffins",
+    "category": "bakes",
+    "description": "Moist and hearty muffins made with ripe bananas, oats, and a touch of honey.",
+    "image": "Images/Bakes1.jpg",
+    "ingredients": [
+      "2 ripe bananas (mashed)",
+      "1 cup rolled oats",
+      "1 cup whole wheat flour",
+      "1 tsp baking soda",
+      "½ tsp salt",
+      "1 tsp cinnamon",
+      "2 eggs",
+      "¼ cup honey",
+      "¼ cup olive oil or melted coconut oil"
+    ],
+    "steps": [
+      "Preheat oven to 350°F (175°C) and line a muffin tin.",
+      "Mix dry ingredients (flour, oats, baking soda, salt, cinnamon).",
+      "In another bowl, whisk eggs, honey, and oil. Add mashed bananas.",
+      "Combine wet and dry ingredients and mix gently.",
+      "Spoon batter into muffin cups and bake 20–25 minutes.",
+      "Cool before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "160 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "4 g", "dailyValue": "8%"},
+      {"name": "Carbohydrates", "amount": "28 g", "dailyValue": "9%"},
+      {"name": "Fat", "amount": "5 g", "dailyValue": "8%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "120 mg", "dailyValue": "5%"}
+    ]
+  },
+  {
+    "id": "mango-banana-smoothie",
+    "title": "Mango Banana Smoothie",
+    "category": "smoothies",
+    "description": "A creamy smoothie made with ripe mango, banana, and a touch of honey.",
+    "image": "Images/sm5.jpg",
+    "ingredients": [
+      "1 cup mango chunks",
+      "1 banana",
+      "½ cup almond milk",
+      "1 tsp honey (optional)",
+      "Ice cubes as needed"
+    ],
+    "steps": [
+      "Place all ingredients in a blender.",
+      "Blend until smooth and creamy.",
+      "Serve immediately."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "170 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "2 g", "dailyValue": "4%"},
+      {"name": "Carbohydrates", "amount": "38 g", "dailyValue": "13%"},
+      {"name": "Fat", "amount": "2 g", "dailyValue": "3%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "50 mg", "dailyValue": "2%"}
+    ]
+  },
+  {
+    "id": "grilled-chicken-quinoa",
+    "title": "Grilled Chicken with Quinoa",
+    "category": "Protein",
+    "description": "Tender grilled chicken served with fluffy quinoa and a side of vegetables.",
+    "image": "Images/meal6.jpg",
+    "ingredients": [
+      "150g chicken breast",
+      "½ cup quinoa",
+      "1 cup mixed vegetables (broccoli, carrots, peas)",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste",
+      "1 tsp paprika"
+    ],
+    "steps": [
+      "Cook quinoa according to package instructions.",
+      "Season chicken with salt, pepper, and paprika.",
+      "Grill chicken until fully cooked.",
+      "Sauté mixed vegetables in olive oil for 3–4 minutes.",
+      "Serve grilled chicken on a bed of quinoa with vegetables on the side."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "400 kcal", "dailyValue": "20%"},
+      {"name": "Protein", "amount": "35 g", "dailyValue": "70%"},
+      {"name": "Carbohydrates", "amount": "35 g", "dailyValue": "12%"},
+      {"name": "Fat", "amount": "12 g", "dailyValue": "18%"},
+      {"name": "Fiber", "amount": "5 g", "dailyValue": "20%"},
+      {"name": "Sodium", "amount": "300 mg", "dailyValue": "13%"}
+    ]
+  },
+  {
+    "id": "green-salad",
+    "title": "Green Salad",
+    "category": "salads",
+    "description": "A simple and refreshing salad with various green leaves and a light vinaigrette.",
+    "image": "Images/salad4.jpg",
+    "ingredients": [
+      "2 cups mixed greens (lettuce, spinach, arugula)",
+      "½ cucumber (sliced)",
+      "1 tsp olive oil",
+      "1 tsp balsamic vinegar",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Combine mixed greens and cucumber in a bowl.",
+      "Drizzle with olive oil and balsamic vinegar.",
+      "Season with salt and pepper and serve immediately."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "70 kcal", "dailyValue": "4%"},
+      {"name": "Protein", "amount": "2 g", "dailyValue": "4%"},
+      {"name": "Carbohydrates", "amount": "8 g", "dailyValue": "3%"},
+      {"name": "Fat", "amount": "4 g", "dailyValue": "6%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "50 mg", "dailyValue": "2%"}
+    ]
+  },
+  {
+    "id": "energy-balls-dates-oats",
+    "title": "Energy Balls (Dates and Oats)",
+    "category": "snacks",
+    "description": "No-bake energy balls made with dates, oats, and a touch of honey for a quick boost.",
+    "image": "Images/snack6.jpg",
+    "ingredients": [
+      "1 cup dates (pitted)",
+      "1 cup rolled oats",
+      "2 tbsp nut butter",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Blend dates in a food processor until smooth.",
+      "Mix with oats and nut butter until a sticky dough forms.",
+      "Roll into small balls and refrigerate for 30 minutes before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "120 kcal", "dailyValue": "6%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "22 g", "dailyValue": "8%"},
+      {"name": "Fat", "amount": "4 g", "dailyValue": "6%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "5 mg", "dailyValue": "0%"}
+    ]
+  },
+  {
+    "id": "watermelon-mint-salad",
+    "title": "Watermelon Mint Salad",
+    "category": "smoothies",
+    "description": "A refreshing summer salad combining sweet watermelon cubes with fresh mint leaves.",
+    "image": "Images/sm1.jpg",
+    "ingredients": [
+      "2 cups watermelon cubes",
+      "1 tbsp fresh mint (chopped)",
+      "1 tsp lime juice",
+      "Pinch of salt (optional)"
+    ],
+    "steps": [
+      "Combine watermelon cubes and mint in a bowl.",
+      "Drizzle with lime juice and sprinkle a pinch of salt if desired.",
+      "Toss gently and serve chilled."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "60 kcal", "dailyValue": "3%"},
+      {"name": "Protein", "amount": "1 g", "dailyValue": "2%"},
+      {"name": "Carbohydrates", "amount": "15 g", "dailyValue": "5%"},
+      {"name": "Fat", "amount": "0 g", "dailyValue": "0%"},
+      {"name": "Fiber", "amount": "1 g", "dailyValue": "4%"},
+      {"name": "Sodium", "amount": "5 mg", "dailyValue": "0%"}
+    ]
+  },
+  {
+    "id": "vegetable-stir-fry",
+    "title": "Vegetable Stir-Fry",
+    "category": "vegetarian",
+    "description": "Quick and colorful stir-fried vegetables in a light soy-ginger sauce.",
+    "image": "Images/meal4.jpg",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "½ cup bell peppers (sliced)",
+      "½ cup snap peas",
+      "1 carrot (sliced)",
+      "1 tbsp soy sauce",
+      "1 tsp olive oil",
+      "1 tsp ginger (grated)"
+    ],
+    "steps": [
+      "Heat olive oil in a pan and sauté ginger briefly.",
+      "Add all vegetables and stir-fry for 5–7 minutes until tender-crisp.",
+      "Add soy sauce and toss to coat.",
+      "Serve immediately as a main or side dish."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "150 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "5 g", "dailyValue": "10%"},
+      {"name": "Carbohydrates", "amount": "25 g", "dailyValue": "8%"},
+      {"name": "Fat", "amount": "3 g", "dailyValue": "5%"},
+      {"name": "Fiber", "amount": "8 g", "dailyValue": "32%"},
+      {"name": "Sodium", "amount": "350 mg", "dailyValue": "15%"}
+    ]
+  },
+  {
+    "id": "stuffed-bell-peppers",
+    "title": "Stuffed Bell Peppers",
+    "category": "meal",
+    "description": "Bell peppers filled with a flavorful mix of rice, beans, and vegetables, baked to perfection.",
+    "image": "Images/meal2.jpg",
+    "ingredients": [
+      "4 bell peppers (halved and seeded)",
+      "1 cup cooked rice",
+      "1 cup black beans",
+      "½ cup corn",
+      "1 tsp cumin",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 375°F (190°C).",
+      "Mix cooked rice, beans, corn, cumin, salt, and pepper.",
+      "Stuff bell pepper halves with the mixture.",
+      "Place in a baking dish and bake for 20–25 minutes.",
+      "Serve hot."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "320 kcal", "dailyValue": "16%"},
+      {"name": "Protein", "amount": "12 g", "dailyValue": "24%"},
+      {"name": "Carbohydrates", "amount": "55 g", "dailyValue": "18%"},
+      {"name": "Fat", "amount": "6 g", "dailyValue": "9%"},
+      {"name": "Fiber", "amount": "12 g", "dailyValue": "48%"},
+      {"name": "Sodium", "amount": "300 mg", "dailyValue": "13%"}
+    ]
+  },
+  {
+    "id": "lower-fat-coleslaw",
+    "title": "Lower-Fat Coleslaw",
+    "category": "salads",
+    "description": "A lighter version of classic coleslaw made with a yogurt-based dressing.",
+    "image": "Images/salad2.jpg",
+    "ingredients": [
+      "2 cups shredded cabbage",
+      "1 carrot (grated)",
+      "2 tbsp low-fat yogurt",
+      "1 tsp apple cider vinegar",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Mix cabbage and carrot in a bowl.",
+      "Add yogurt, vinegar, salt, and pepper.",
+      "Toss until well combined and serve chilled."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "90 kcal", "dailyValue": "5%"},
+      {"name": "Protein", "amount": "3 g", "dailyValue": "6%"},
+      {"name": "Carbohydrates", "amount": "12 g", "dailyValue": "4%"},
+      {"name": "Fat", "amount": "3 g", "dailyValue": "5%"},
+      {"name": "Fiber", "amount": "3 g", "dailyValue": "12%"},
+      {"name": "Sodium", "amount": "60 mg", "dailyValue": "3%"}
+    ]
+  },
+  {
+    "id": "sweet-potato-curry",
+    "title": "Sweet Potato Curry",
+    "category": "vegetarian",
+    "description": "A creamy curry made with sweet potatoes, coconut milk, and spices.",
+    "image": "Images/Veggie1.jpg",
+    "ingredients": [
+      "2 medium sweet potatoes (diced)",
+      "1 onion (chopped)",
+      "2 cloves garlic (minced)",
+      "1 can coconut milk",
+      "1 tbsp curry powder",
+      "2 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Heat olive oil in a pot and sauté onion and garlic.",
+      "Add curry powder and stir for 30 seconds.",
+      "Add sweet potatoes and cook for 5 minutes.",
+      "Pour in coconut milk, cover, and simmer until sweet potatoes are tender.",
+      "Season with salt before serving."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "350 kcal", "dailyValue": "18%"},
+      {"name": "Protein", "amount": "6 g", "dailyValue": "12%"},
+      {"name": "Carbohydrates", "amount": "55 g", "dailyValue": "18%"},
+      {"name": "Fat", "amount": "14 g", "dailyValue": "22%"},
+      {"name": "Fiber", "amount": "9 g", "dailyValue": "36%"},
+      {"name": "Sodium", "amount": "400 mg", "dailyValue": "17%"}
+    ]
+  },
+  {
+    "id": "whole-wheat-bread",
+    "title": "Whole Wheat Bread",
+    "category": "bakes",
+    "description": "A classic loaf made with 100% whole wheat flour, perfect for sandwiches.",
+    "image": "Images/Bakes2.jpg",
+    "ingredients": [
+      "3 cups whole wheat flour",
+      "1½ tsp salt",
+      "2 tbsp olive oil",
+      "1 tbsp honey",
+      "1 packet (7 g) dry yeast",
+      "1¼ cups warm water"
+    ],
+    "steps": [
+      "In a bowl, combine warm water, yeast, and honey. Let sit 5–10 minutes until frothy.",
+      "Mix in flour, salt, and olive oil to form a dough.",
+      "Knead dough for 8–10 minutes until smooth.",
+      "Let dough rise for 1–2 hours until doubled in size.",
+      "Shape into a loaf and place in a greased loaf pan.",
+      "Bake at 375°F (190°C) for 30–35 minutes until golden."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "120 kcal", "dailyValue": "6%"},
+      {"name": "Protein", "amount": "5 g", "dailyValue": "10%"},
+      {"name": "Carbohydrates", "amount": "22 g", "dailyValue": "7%"},
+      {"name": "Fat", "amount": "2 g", "dailyValue": "3%"},
+      {"name": "Fiber", "amount": "4 g", "dailyValue": "16%"},
+      {"name": "Sodium", "amount": "180 mg", "dailyValue": "8%"}
+    ]
+  },
+  {
+    "id": "pineapple-coconut-smoothie",
+    "title": "Pineapple Coconut Smoothie",
+    "category": "smoothies",
+    "description": "A tropical blend of pineapple and coconut milk, perfect for a refreshing treat.",
+    "image": "Images/sm4.jpg",
+    "ingredients": [
+      "1 cup pineapple chunks",
+      "½ cup coconut milk",
+      "½ cup Greek yogurt",
+      "1 tsp honey (optional)",
+      "Ice cubes as needed"
+    ],
+    "steps": [
+      "Add all ingredients to a blender.",
+      "Blend until smooth and creamy.",
+      "Serve chilled."
+    ],
+    "nutrition": [
+      {"name": "Calories", "amount": "160 kcal", "dailyValue": "8%"},
+      {"name": "Protein", "amount": "4 g", "dailyValue": "8%"},
+      {"name": "Carbohydrates", "amount": "28 g", "dailyValue": "9%"},
+      {"name": "Fat", "amount": "5 g", "dailyValue": "8%"},
+      {"name": "Fiber", "amount": "2 g", "dailyValue": "8%"},
+      {"name": "Sodium", "amount": "60 mg", "dailyValue": "3%"}
+    ]
+  }
+]

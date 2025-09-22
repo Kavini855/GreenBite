@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Workout Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/Workout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="Wbody">
+    <header><nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="GreenBite.html"
+              ><img src="Images/LOGO1.jpg" alt="GREENBITE"
+            /></a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="GreenBite.html">Home</a></li>
+            <li><a href="Recipes.html">Recipes</a></li>
+            <li><a href="Calorie&NutritionCalculator.html">Calculator</a></li>
+            <li><a href="Workout.html">WorkOut</a></li>
+            <li><a href="Mindfulness.html">Mindfulness</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero-intro">
+      <h2>Welcome to Your Personal Workout Generator</h2>
+      <p>
+        Get customized workouts designed to match your goals, equipment, and
+        time. Whether you want to tone your arms, strengthen your legs, or
+        improve flexibility, you’ll find the perfect routine here!
+      </p>
+    </section>
+    <h2 class="h1-w">Workouts</h2>
+    <section class="workout-gallery">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="Images/armw.jpg" alt="arm-workout" />
+          <p>Arms</p>
+        </div>
+        <div class="grid-item">
+          <img src="Images/legsw.jpg" alt="leg-workout" />
+          <p>Legs</p>
+        </div>
+        <div class="grid-item">
+          <img src="Images/fullw.jpg" alt="fullbody-workout" />
+          <p>Full Body</p>
+        </div>
+        <div class="grid-item">
+          <img src="Images/we1.jpg" alt="Back-workout" />
+          <p>Back</p>
+        </div>
+        <div class="grid-item">
+          <img src="Images/we2.jpg" alt="shoulder-workout" />
+          <p>Shoulders</p>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="motivational">
+      <h2>Stay Strong, Stay Consistent!</h2>
+      <p>
+        Fitness is not about being better than someone else. It’s about being
+        better than you used to be. Take one step at a time — your future self
+        will thank you!
+      </p>
+    </section>
+    <br />
+    <section>
+      <h2 class="workoutH1">Generate Your Workout Here</h2>
+    </section>
+    <div class="filters-w">
+      <div>
+        <label for="bodyPart">Select Body Part: </label>
+        <select id="bodyPart">
+          <option value="arms">Arms</option>
+          <option value="legs">Legs</option>
+          <option value="fullBody">Full Body</option>
+          <option value="back">Back</option>
+          <option value="chest">Chest</option>
+          <option value="shoulders">Shoulders</option>
+          <option value="core">Core</option>
+        </select>
+      </div>
+      <div>
+        <label for="equipment">Select Equipment: </label>
+        <select id="equipment">
+          <option value="none">None</option>
+          <option value="dumbbells">Dumbbells</option>
+          <option value="resistanceband">Resistance Band</option>
+          <option value="kettlebell">Kettlebell</option>
+          <option value="medicineBall">Medicine Ball</option>
+          <option value="shoulders">Shoulders</option>
+          <option value="core">Core</option>
+        </select>
+      </div>
+      <div>
+        <label for="duration">Duratoin Per Exercise (sec):</label>
+        <input
+          type="number"
+          id="duration"
+          placeholder="Seconds per exercise"
+          value="30"
+          min="10"
+          max="180"
+        />
+      </div>
+      <div class="generateclass">
+        <button id="generateBtn">Generate Workout</button>
+      </div>
+    </div>
+
+    <div id="messageSection">Your message will appear here.</div>
+    <div class="workout-grid" id="workoutContainer"></div>
+
+    <h1>Why Workout Plan Important</h1>
+    <section id="fitness" class="fitness-workout">
+      <div class="benefit">
+        <h2>Physical Health</h2>
+        <p>
+          Working out strengthens muscles and bones, improves heart health, and
+          helps manage weight. It also boosts immunity and improves flexibility,
+          lowering the risk of injuries and falls as you age.
+        </p>
+      </div>
+      <div class="benefit">
+        <h2>Mental Health</h2>
+        <p>
+          Exercise reduces stress and anxiety, improves mood, and boosts
+          self-confidence. It sharpens focus, strengthens memory, and helps you
+          sleep better.
+        </p>
+      </div>
+      <div class="benefit">
+        <h2>Lifestyle</h2>
+        <p>
+          Staying active increases daily energy, builds discipline, and
+          encourages social interaction. Regular exercise supports longevity,
+          helping you live a healthier and happier life.
+        </p>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>GreenBite Wellness</h3>
+          <p>
+            "GreenBite is dedicated to helping you live a healthier, balanced
+            life. We share tips, recipes, and mindful practices to nourish your
+            body, mind, and soul. Join our community and embrace wellness every
+            day."
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="GreenBite.html">Home</a></li>
+            <li><a href="Recipes.html">Healthy Recipes</a></li>
+            <li>
+              <a href="Calorie&NutritionCalculator.html"
+                >Calorie & Nutrition Calculator</a
+              >
+            </li>
+            <li><a href="Workout.html">Workout</a></li>
+            <li><a href="Mindfulness.html">Mindfulness</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!--newsletter-->
+        <div class="footer-section newsletter">
+          <h3>Subscribe to Us</h3>
+          <p>
+            "Subscribe for healthy tips, recipes, and mindful living inspiration
+            from GreenBite."
+          </p>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your Email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="message"></p>
+        </div>
+
+        <!--social links-->
+        <div class="footer-section socials">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-youtube fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 WellnessSite. All Rights Reserved.
+      </div>
+    </footer>
+
+    <script src="Scripts/Workout.js"></script>
+  </body>
+</html>

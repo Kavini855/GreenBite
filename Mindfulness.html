@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mindfulness</title>
+        <link rel="stylesheet" href="Styles/Mindfulness.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    </head>
+    <body>
+        <header>
+            <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="GreenBite.html"><img src="Images/LOGO1.jpg" alt="GREENBITE"></a></li>
+            <li class="menu-item"><a href="GreenBite.html">Home</a></li>
+            <li class="menu-item"><a href="Recipes.html">Recipes</a></li>
+            <li class="menu-item"><a href="Calorie&NutritionCalculator.html">Calculator</a></li>
+            <li class="menu-item"><a href="Workout.html">WorkOut</a></li>
+            <li class="menu-item"><a href="Mindfulness.html">Mindfulness</a></li>
+            <li class="menu-item"><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+    </nav>
+        </header>
+        <section class="hero">
+            <h1 class="mindfulness-h1"> ~ Find Your Inner Peace ~ </h1>
+        </section>
+        <div class="mind-gallery">
+            <div class="gallery">
+                <div class="mindbox-img"><h3>Meditation</h3></div>
+                <div class="mindbox-img"><h3>Nature and Calm Environments</h3></div>
+                <div class="mindbox-img"><h3>Breathing</h3></div>
+                <div class="mindbox-img"><h3>Zen Stones</h3></div>
+                <div class="mindbox-img"><h3>Candle Meditation</h3></div>
+                <div class="mindbox-img"><h3>Calm Forest</h3></div>
+            </div>
+        </div>
+
+    <div class="mindfulness-page">
+
+            <h2>What is Mindfulness?</h2>
+            <p>Mindfulness is the practice of being present in the moment, noticing your thoughts, fellings, and surrondings without judgment.
+                It helps reduce stress, improve focus, and bring a sense of Clam into everyday life through simple practices like mindful breathing or 
+                meditation.
+            </p>
+            <br>
+
+            <h2>Meditation and Mindfulness</h2>
+            <p>Mindfulness means paying attention to the present moment with calm and clarity. It helps reduce stress, Improve Focuse
+                and bring a sense of peace into Everyday Life.
+                Mindfulness is a simple yet powerful practice of being fully aware of your thoughts, feelings, and surroundings without
+                judgment.by slowing down and focusing on the present, it allows you to let go of stress, sharpen concentration, and 
+                create balance for both mind and body.
+            </p>
+        <header>
+            <h2><i class="fas fa-spa"></i>Mindfulness</h2>
+        </header>
+
+    <div class="Mindcontainer">
+            <div class="two-column">
+                <div class="cardmind">
+                    <h2><i class="fas fa-wind"></i>Breathing Exercise</h2>
+                    <div class="breathing-container">
+                        <div class="breathing-circle" id="breathingCircle">
+                            <span id="breathingText">Breathe</span>
+                        </div>
+                        <div class="breathing-controls">
+                            <button class="btn-m" id="startBreathing">
+                                <i class="fas fa-play"></i> Start
+                            </button>
+                            <button class="btn-m" id="stopBreathing">
+                                <i class="fas fa-stop"></i> Stop
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardmind">
+                    <h2><i class="fas fa-clock"></i> Timer </h2>
+                    <div class="timer-container">
+                        <div class="timer-options">
+                            <div class="timer-option active"  data-minutes="5">5 min</div>
+                            <div class="timer-option"  data-minutes="10">10 min</div>
+                            <div class="timer-option"  data-minutes="15">15 min</div>
+                            <div class="timer-option"  data-minutes="25"> Pomodoro</div>
+                            <div class="timer-option"  data-minutes="30">30 min</div>
+                        </div>
+                        <div class="timer-display" id="timerDisplay">05:00</div>
+                        <div class="timer-controls">
+                            <button class="timerBtn" id="startTimer">
+                                <i class="fas fa-play"></i> Start
+                            </button>
+                            <button class="timerBtn btn-secondary-m" id="pauseTimer">
+                                <i class="fas fa-pause"></i> Pause
+                            </button>
+                            <button class="timerBtn btn-secondary-m" id="resetTimer">
+                                <i class="fas fa-redo"></i> Reset
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardmind">
+                <h2><i class="fas fa-music"></i> Ambient Sounds </h2>
+                <div class="sounds-container">
+                    <div class="sound-btn" data-sound="rain">
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>Rain</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                    <div class="sound-btn" data-sound="ocean">
+                        <i class="fas fa-water"></i>
+                        <span>Ocean</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                    <div class="sound-btn" data-sound="forest">
+                        <i class="fas fa-tree"></i>
+                        <span>Forest</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                    <div class="sound-btn" data-sound="fireplace">
+                        <i class="fas fa-fire"></i>
+                        <span>Fireplace</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                    <div class="sound-btn" data-sound="cafe">
+                        <i class="fas fa-coffee"></i>
+                        <span>Cafe</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                    <div class="sound-btn" data-sound="white-noise">
+                        <i class="fas fa-wave-square"></i>
+                        <span>White Noise</span>
+                        <input type="range" class="volume-control" min="0" max="100" value="50">
+                    </div>
+                </div>
+                <div class="audio-controls">
+                    <div class="master-volume">
+                        <i class="fas fa-volume-up"></i>
+                        <input type="range" id="masterVolume" min="0" max="100" value="70">
+                        <span id="masterVolumeValue"> 70%</span>
+                    </div>
+                    <button class="btn btn-secondary-m" id="stopAllSounds">
+                        <i class="fas fa-stop"></i> Stop All Sounds
+                    </button>
+                </div>
+            </div>
+
+            <div class="cardmind">
+                <h2><i class="fas fa-history"></i> Session History</h2>
+                <div class="sessions-container" id="sessionsContainer">
+                    <p class="session-item">No session completed yet. Start a meditation or breathing exercise!</p>
+                </div>
+                <button class="btn btn-secondary-m" id="clearHistory">
+                    <i class="fas fa-trash"></i> Clear History 
+                </button>
+            </div>
+        </div>
+        <!--audio elements-->
+        <audio id="rainSound" loop>
+            <source src="Audio/lightrain.mp3" type="audio/mp3">
+        </audio>
+
+        <audio id="oceanSound" loop>
+            <source src="Audio/ocean.mp3" type="audio/mp3">
+        </audio>
+        <audio id="forestSound" loop>
+            <source src="Audio/forest.mp3" type="audio/mp3">
+        </audio>
+        <audio id="fireplaceSound" loop>
+            <source src="Audio/fireplace.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cafeSound" loop>
+            <source src="Audio/Cafe.mp3" type="audio/mp3">
+        </audio>
+        <audio id="whiteNoiseSound" loop>
+            <source src="Audio/whitenoise.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+    <div class="notification" id="notification"></div>
+
+        <!--footer-->
+    <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h3> GreenBite Wellness </h3>
+                    <p>"GreenBite is dedicated to helping you live a healthier, balanced life. We share tips, 
+                        recipes, and mindful practices to nourish your body, mind, and soul. Join our community and embrace wellness every day."</p>
+                </div>
+
+                <div class="footer-section links">
+                    <h3> Quick Links</h3>
+                    <ul>
+                        <li><a href="GreenBite.html">Home</a></li>
+                        <li><a href="Recipes.html">Healthy Recipes</a></li>
+                        <li><a href="Calorie&NutritionCalculator.html">Calorie & Nutrition Calculator</a></li>
+                        <li><a href="Workout.html">Workout</a></li>
+                        <li><a href="Mindfulness.html">Mindfulness</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!--newsletter-->
+                <div class="footer-section newsletter">
+                    <h3>Subscribe to Us</h3>
+                    <p>"Subscribe for healthy tips, recipes, and mindful living inspiration from GreenBite."</p>
+                    <form id="newsletter-form">
+                        <input type="email" id="email" placeholder="Enter your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <p id="message"></p>
+                </div>
+
+                <!--social links-->
+                <div class="footer-section socials">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube fa-beat"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok fa-beat"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; 2025 WellnessSite. All Rights Reserved.
+            </div>
+        </footer>
+
+        <script src="Scripts/Mindfulness.js"></script>
+    </body>
+</html>

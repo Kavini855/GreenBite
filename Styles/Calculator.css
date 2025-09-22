@@ -1,0 +1,591 @@
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: grey;
+    padding: 12px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav, .nav-bar {
+    margin: 0;
+}
+
+.logo img {
+    width: 40px;
+    justify-content: left;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    transition: 0.15s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+/* =====================
+   Mobile Responsive Styles
+   ===================== */
+@media (max-width: 610px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu li {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+
+    .menu li a {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+    }
+
+    #check:checked ~ .open-menu {
+        display: none;
+    }
+}
+.Calculator-Page{
+    background: linear-gradient(135deg, #f9f9f9, #e6f7ff); /* soft gradient */
+    padding: 20px;
+    font-family: poppins;
+}
+
+.containerCalculate {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+.calculator {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    flex: 1;
+    min-width: 320px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.calculator:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.calculator, .result {
+    flex: 1 1 100%;
+    min-width: 300px;
+}
+/* Form styling */
+.calculator form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #0077b6;
+    box-shadow: 0 0 8px rgba(0,119,182,0.3);
+}
+
+.submitcalc {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #0077b6, #023e8a);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 119, 182, 0.4);
+    transition: 0.3s;
+}
+
+.submitcalc:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 119, 182, 0.6);
+}
+
+/* Results cards */
+.result {
+    flex: 1;
+    min-width: 300px;
+}
+
+.cardcalc {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cardcalc:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.cardcalc h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.cardcalc .value {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.cardcalc .unit {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.cardcalc .description {
+    background: #e0f0ff;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0077b6;
+}
+
+.macro {
+    margin-top: 20px;
+}
+
+.macro label {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 25px;
+    background: #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    width: 0;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    border-radius: 12px;
+    transition: width 1s ease;
+}
+
+#carbsBar { 
+    background: linear-gradient(90deg, #ffd966, #ffb703);
+}
+
+#proteinBar { 
+    background: linear-gradient(90deg, #52c7ea, #219ebc);
+}
+
+#fatBar { 
+    background: linear-gradient(90deg, #ff9933, #fb8500);   
+}
+
+.videoplay video {
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.h1-cal {
+    color: #0077b6;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 10px;
+}
+
+.info-card {
+    background: #f0f8ff;               /* soft card background */
+    border-radius: 15px;
+    padding: 25px 20px;
+    max-width: 450px;                  /* keeps cards readable */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+.info-card h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.info-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+@media (max-width: 480px) {
+  .info-card h2 {
+    font-size: 20px;
+  }
+  .intro-text {
+    font-size: 15px;
+  }
+}
+
+/* ---------- Responsive Styles ---------- */
+@media (max-width: 900px) {
+    /* Info cards stack nicely */
+    .info-card {
+        max-width: 90%;
+    }
+    /* Calculator layout adjusts */
+    .containerCalculate {
+        flex-direction: column;
+    }
+    .result {
+        margin-top: 20px;
+    }
+}
+
+.meals-section {
+    width: 100%;
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.meals-section h2 {
+    color: #0077b6;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.meals-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meal-card {
+    background: #f9f9f9;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.meal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.meal-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.meal-card h3 {
+    color: #219ebc;
+    margin-bottom: 10px;
+}
+
+.meal-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+}
+/* Reduce font size on smaller screens */
+@media (max-width: 500px) {
+    .h1-cal {
+        font-size: 28px;
+    }
+    .cardcalc .value {
+        font-size: 28px;
+    }
+    .tips-section h2,
+    .meals-section h2 {
+        font-size: 28px;
+    }
+    .tip-card,
+    .meal-card {
+        width: 90%;  /* nearly full-width for small devices */
+    }
+}
+
+/* Ensure calculator inputs are fully visible */
+@media (max-width: 400px) {
+    input, select, .submitcalc {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+.tip-card, .meal-card {
+    perspective: 1000px; /* Enable 3D effect */
+}
+
+.tip-card div, .meal-card div {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.tip-card:hover div, .meal-card:hover div {
+    transform: rotateY(10deg) scale(1.03);
+}
+.tip-card p, .meal-card p {
+    max-height: 60px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.tip-card:hover p, .meal-card:hover p {
+    max-height: 200px; /* Reveal full text on hover */
+}
+.tip-card:hover, .meal-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+/*footer*/
+/* Footer Container */
+.footer {
+    background-color: #f9fafb;
+    color: #1f2937;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 220px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #111827;
+}
+
+.footer-section p, .footer-section li, .footer-section a {
+    font-size: 14px;
+    color: #4b5563;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section li a:hover,
+.social-icons a:hover {
+    text-decoration: underline;
+    color: #2563eb;
+}
+
+/* Newsletter form */
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    width: 70%;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2563eb;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #1e40af;
+}
+
+#message {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #16a34a;
+}
+
+/* Social Links */
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 25px;
+    color: #4b5563;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons i {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.social-icons a:hover {
+    color: #2563eb;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+.newsletter input {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+.newsletter button {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+.social-icons a {
+      display: inline-block;
+      margin: 5px;
+    }
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calorie & Nutrition Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Styles/Calculator.css" />
+  </head>
+  <body class="Calculator-Page">
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="GreenBite.html"
+              ><img src="Images/LOGO1.jpg" alt="GREENBITE"
+            /></a>
+          </li>
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="GreenBite.html">Home</a></li>
+            <li><a href="Recipes.html">Recipes</a></li>
+            <li><a href="Calorie&NutritionCalculator.html">Calculator</a></li>
+            <li><a href="Workout.html">WorkOut</a></li>
+            <li><a href="Mindfulness.html">Mindfulness</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="fas fa-times"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <h1 class="h1-cal">Calorie and Nutrition Calculator</h1>
+    <section class="videoplay">
+      <video width="100%" autoplay muted loop>
+        <source src="Videos/CN1.mp4" type="video/mp4" />
+      </video>
+    </section>
+    <h1>Calories and Nutrition Made Simple</h1>
+    <section class="info-section">
+      <div class="info-card">
+        <h2>Calories</h2>
+        <p>
+          Understanding your Calorie needs is the first step towards a healthier
+          lifestyle. Calories are the fuel your body uses for energy. Whether
+          you're aiming to maintain, lose, or gain weight, tracking your intake
+          can guide you toward better health and long-term wellness.
+        </p>
+      </div>
+      <div class="info-card">
+        <h2>Nutrition</h2>
+        <p>
+          Nutrition is about getting the right balance of macronutrients and
+          micronutrients. Learn how carbohydrates, proteins, and fats work
+          together to support energy, muscle recovery, and overall wellbeing.
+          Making mindful food choices helps you achieve your goals.
+        </p>
+      </div>
+    </section>
+    <p class="intro-text">
+      Food is Fuel, and knowing what's on your plate makes all the Difference!!
+      Understanding your Calorie and Nutrition needs is the first step towards a
+      Healthier Lifestyle. <b>Here,</b> you will find simple insights into
+      Calories, nutrients, and how they work <b>Together.</b>
+      Whether you're aiming to maintain, Lose, or Gain Weight, Tracking your
+      intake and making mindful food choices can guide you towards better health
+      and long-term WELLNESS.
+    </p>
+    <br />
+    <h1>Calculator</h1>
+    <div class="containerCalculate">
+      <!--left column-->
+      <div class="calculator">
+        <h2>Calorie and Nutrition Calculator</h2>
+        <form id="calcform">
+          <div>
+            <label> Age (years) </label>
+            <input type="number" id="age" required />
+          </div>
+          <div>
+            <label> Gender</label>
+            <select id="gender" required>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div>
+            <label>Height (cm)</label>
+            <input type="number" id="height" required />
+          </div>
+          <div>
+            <label>Weight (kg)</label>
+            <input type="number" id="weight" required />
+          </div>
+          <div>
+            <label>Activity Level</label>
+            <select id="activity" required>
+              <option value="">Select</option>
+              <option value="1.2">Sedentary (Little/no exercise)</option>
+              <option value="1.375">Lightly active (1–3 days/week)</option>
+              <option value="1.55">Moderately active (3–5 days/week)</option>
+              <option value="1.725">Very active (6–7 days/week)</option>
+              <option value="1.9">Super active (Hard physical job)</option>
+            </select>
+          </div>
+          <button type="submit" class="submitcalc">Calculate</button>
+        </form>
+      </div>
+
+      <!--right side-->
+      <div class="result" id="result">
+        <!---BMR card-->
+        <div class="cardcalc">
+          <h3>Basal Metabolic Rate (BMR)</h3>
+          <div class="value" id="bmr"></div>
+          <div class="unit">calories/day</div>
+          <div class="description">
+            BMR is the number of calories your body burns at rest to maintain
+            basic functions like breathing and circulation.
+          </div>
+        </div>
+
+        <!--TDEE card-->
+        <div class="cardcalc">
+          <h3>Total Daily Energy Expenditure (TDEE)</h3>
+          <div class="value" id="tdee"></div>
+          <div class="unit">calories/day</div>
+          <div class="description">
+            TDEE is your total daily calorie needs, including physical activity.
+            This is your maintenance calorie level.
+          </div>
+        </div>
+        <div class="cardcalc">
+          <div class="macro">
+            <label>Carbohydrates: <span id="carbs"></span> g</label>
+            <div class="progress-bar">
+              <div class="progress-bar-inner" id="carbsBar"></div>
+            </div>
+          </div>
+          <div class="macro">
+            <label>Protein: <span id="protein"></span> g</label>
+            <div class="progress-bar">
+              <div class="progress-bar-inner" id="proteinBar"></div>
+            </div>
+          </div>
+          <div class="macro">
+            <label>Fat: <span id="fat"></span> g</label>
+            <div class="progress-bar">
+              <div class="progress-bar-inner" id="fatBar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="meals-section">
+      <h2>Suggested Healthy Meals</h2>
+      <div class="meals-container">
+        <div class="meal-card">
+          <img src="Images/salad2.jpg" alt="Fresh Salad" />
+          <h3>Fresh Garden Salad</h3>
+          <p>Low-calorie, high-fiber meal packed with vitamins and minerals.</p>
+        </div>
+        <div class="meal-card">
+          <img src="Images/Protein1.jpg" alt="Grilled Chicken" />
+          <h3>Grilled Chicken & Quinoa</h3>
+          <p>High-protein dish perfect for muscle recovery and energy.</p>
+        </div>
+        <div class="meal-card">
+          <img src="Images/mc2.jpg" alt="Fruit Smoothie" />
+          <h3>Baked Salmon with Veggies</h3>
+          <p>
+            High-protein, omega-3 rich meal perfect for heart and muscle health.
+          </p>
+        </div>
+        <div class="meal-card">
+          <img src="Images/mc1.jpg" alt="Fruit Smoothie" />
+          <h3>Stuffed Bell Peppers</h3>
+          <p>
+            Vegetable and quinoa stuffed peppers, rich in fiber and vitamins.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>GreenBite Wellness</h3>
+          <p>
+            "GreenBite is dedicated to helping you live a healthier, balanced
+            life. We share tips, recipes, and mindful practices to nourish your
+            body, mind, and soul. Join our community and embrace wellness every
+            day."
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="GreenBite.html">Home</a></li>
+            <li><a href="Recipes.html">Healthy Recipes</a></li>
+            <li>
+              <a href="Calorie&NutritionCalculator.html"
+                >Calorie & Nutrition Calculator</a
+              >
+            </li>
+            <li><a href="Workout.html">Workout</a></li>
+            <li><a href="Mindfulness.html">Mindfulness</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!--newsletter-->
+        <div class="footer-section newsletter">
+          <h3>Subscribe to Us</h3>
+          <p>
+            "Subscribe for healthy tips, recipes, and mindful living inspiration
+            from GreenBite."
+          </p>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your Email"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="message"></p>
+        </div>
+
+        <!--social links-->
+        <div class="footer-section socials">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-youtube fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 WellnessSite. All Rights Reserved.
+      </div>
+    </footer>
+    <script src="Scripts/Calculator.js"></script>
+  </body>
+</html>

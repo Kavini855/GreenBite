@@ -1,0 +1,712 @@
+/*Mindfulness page*/
+/* Navigation Bar Styles */
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: grey;
+    padding: 12px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav, .nav-bar {
+    margin: 0;
+}
+
+.logo img {
+    width: 40px;
+    justify-content: left;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    transition: 0.15s ease-in-out;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+/* =====================
+   Mobile Responsive Styles
+   ===================== */
+@media (max-width: 610px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu li {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+
+    .menu li a {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+    }
+
+    #check:checked ~ .open-menu {
+        display: none;
+    }
+}
+
+.hero{
+    background: fixed;
+    text-align: center;
+    color: #4c4f25;
+    text-decoration: wavy;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mindfulness-page h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2e8b57;
+}
+
+.mind-gallery{
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mindbox-img{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(../Images/M1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+.mindbox-img:nth-child(2){
+    background: url(../Images/M2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mindbox-img:nth-child(3){
+    background: url(../Images/M5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mindbox-img:nth-child(4){
+    background: url(../Images/M6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mindbox-img:nth-child(5){
+    background: url(../Images/M7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mindbox-img:nth-child(6){
+    background: url(../Images/M4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mindbox-img h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.mindbox-img:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.mindbox-img:hover h3 {
+    opacity: 1;
+    bottom: 25px;
+}
+.mindfulness-h1{
+    font-size: 2.8rem;
+    color: #2e6047;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+}
+.mindfulness-h1::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #a8d5ba;
+    /*margin: 10px auto 0;*/
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+@media (max-width: 768px) {
+    .mindbox-img {
+        max-width: 100px;   /* smaller pills on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .mindbox-img {
+        max-width: 80px;    /* even smaller pills on phones */
+    }
+}
+
+/*open card*/
+.mindcard{
+    display: none;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #5e72e4;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #825ee4;
+}
+
+/*-----------------------------mindfulness page -----------------------------------------*/
+header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #5e72e4;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Mindcontainer {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.cardmind {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.cardmind:hover {
+    transform: translateY(-5px);
+}
+
+.cardmind h2 {
+    color: #32325d;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.breathing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.breathing-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #5e72e4, #825ee4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    transition: all 4s ease-in-out;
+    box-shadow: 0 10px 20px rgba(94, 114, 228, 0.3);
+}
+
+.breathing-circle.inhale {
+    transform: scale(1.3);
+}
+
+.breathing-circle.exhale {
+    transform: scale(1);
+}
+
+.breathing-controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-m {
+    background-color: #5e72e4;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-m:hover {
+    background-color: #825ee4;
+    transform: translateY(-2px);
+}
+
+.btn-m:active {
+    transform: translateY(0);
+}
+
+.btn-secondary-m {
+    background-color: #8898aa;
+}
+
+.btn-secondary-m:hover {
+    background-color: #32325d;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.timer-display {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #5e72e4;
+    margin: 1rem 0;
+}
+
+.timer-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.timer-options {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timer-option {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    background-color: #f8f9fe;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timer-option.active {
+    background-color: #5e72e4;
+    color: #ffffff;
+}
+
+.sounds-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.sound-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fe;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sound-btn:hover {
+    background-color: #5e72e4;
+    color: #ffffff;
+}
+
+.sound-btn.active {
+    background-color: #5e72e4;
+    color: #ffffff;
+}
+
+.sound-btn i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.volume-control {
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.sessions-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.session-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border-bottom: 1px solid #f8f9fe;
+}
+
+.session-item:last-child {
+    border-bottom: none;
+}
+
+.session-date {
+    color: #8898aa;
+    font-size: 0.875rem;
+}
+
+.session-type {
+    font-weight: 600;
+}
+
+.session-duration {
+    color: #5e72e4;
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #2dce89;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.notification.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.audio-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.master-volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f9fe;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+}
+.master-volume input {
+    width: 150px;
+}
+
+@media (max-width: 768px) {
+    .two-column {
+        grid-template-columns: 1fr;
+    }
+            
+    .timer-display {
+        font-size: 3rem;
+    }
+            
+    .breathing-circle {
+        width: 150px;
+        height: 150px;
+    }
+            
+    .sounds-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*open card*/
+.mindcard{
+    display: none;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #5e72e4;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #825ee4;
+}
+/*footer*/
+/* Footer Container */
+.footer {
+    background-color: #f9fafb;
+    color: #1f2937;
+    padding: 40px 20px 20px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 220px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #111827;
+}
+
+.footer-section p, .footer-section li, .footer-section a {
+    font-size: 14px;
+    color: #4b5563;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+.footer-section li a:hover,
+.social-icons a:hover {
+    text-decoration: underline;
+    color: #2563eb;
+}
+
+/* Newsletter form */
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #d1d5db;
+    outline: none;
+    width: 70%;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2563eb;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #1e40af;
+}
+
+#message {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #16a34a;
+}
+
+/* Social Links */
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 25px;
+    color: #4b5563;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons i {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.social-icons a:hover {
+    color: #2563eb;
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #6b7280;
+    border-top: 1px solid #e5e7eb;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+.newsletter input {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+.newsletter button {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+.social-icons a {
+      display: inline-block;
+      margin: 5px;
+    }
+}

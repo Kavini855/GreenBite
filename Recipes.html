@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes </title>
+    <link rel="stylesheet" href="Styles/Recipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="GreenBite.html"><img src="Images/LOGO1.jpg" alt="GREENBITE"></a></li>
+            <li class="menu-item"><a href="GreenBite.html">Home</a></li>
+            <li class="menu-item"><a href="Recipes.html">Recipes</a></li>
+            <li class="menu-item"><a href="Calorie&NutritionCalculator.html">Calculator</a></li>
+            <li class="menu-item"><a href="Workout.html">WorkOut</a></li>
+            <li class="menu-item"><a href="Mindfulness.html">Mindfulness</a></li>
+            <li class="menu-item"><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+    </nav>
+    
+    <section class="welcome">
+        <section class="hero-quote">
+            <h2 class="animated-quotes">Nourish your Body, Delight Your Taste Buds</h2>
+        </section>
+        <div class="welcome-container">
+            <video style="width: 100%" autoplay muted loop>
+                <source src="Videos/Health1.mp4" type="video/mp4">
+            </video>
+            <h2 class="intro"> Welcome to the Healthy Recipe Page!</h2>
+            <p>Discover delicious, nutritious, and easy-to-make recipes that will keep your body energized and your taste buds happy. 
+                Whether you're looking for quick snacks, balanced meals, or refreshing drinks — you're in the right place!</p>
+        </div>
+        <a href="#recipeGrid" class="welcome-btn">Get started</a>
+    </section>
+    <section class="healthy-info">
+        <div class="info-container">
+            <h2> What is a Healthy Recipe?</h2>
+            <p>A healthy recipe is more than just a meal — it's a balance of nutrients that fuels your body and supports overall wellness. 
+                Healthy recipes often include whole grains, lean proteins, fresh vegetables, fruits, and healthy fats, while minimizing excess sugar, salt, and processed ingredients.</p>
+
+            <h2>Why Choose Healthy Recipes?</h2>
+            <p>Eating healthy recipes helps improve energy levels, boosts your immune system, supports a healthy weight, and 
+                promotes long-term well-being. By choosing nourishing meals, you can enjoy delicious flavors while also caring 
+                for your body and mind.</p>
+        </div>
+    </section>
+    <div class="container">
+        <header>
+            <h1>Healthy Recipes</h1>
+            <div class="subtitle">Light Bites with Big Benefits -- Smart Snacking made Simple and satisfying.</div>
+        </header>
+
+        <div class="filters">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search recipes...">
+            </div>
+            <div class="category-filter">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="snacks">Snacks</option>
+                    <option value="salads">Salads</option>
+                    <option value="meals">Hearty Meals</option>
+                    <option value="smoothies">Fruits and Smoothies</option>
+                    <option value="bakes">Bakes</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="dips">Dressigns and Dips</option>
+                    <option value="protein">Protein Dishes</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="recipe-grid" id="recipeGrid">
+        </div>
+    </div>
+
+    <!--recipe modal-->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Recipe Title</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="https://picsum.photos/seed/recipe/600/400.jpg" alt="Recipe Image">
+                </div>
+                <div class="recipe-details">
+                    <div class="ingredients-section">
+                        <h3>Ingredients</h3>
+                        <ul id="ingredientsList">
+
+                        </ul>
+                    </div>
+                    <div class="steps-section">
+                        <h3>Preparation Steps</h3>
+                        <ol id="stepsList">
+
+                        </ol>
+                    </div>
+                    <div class="nutrition-section">
+                        <h3>Nutrition Information</h3>
+                        <table id="nutritionTable">
+                            <thead>
+                                <tr>
+                                    <th>Nutrient</th>
+                                    <th>Amount</th>
+                                    <th>% Daily Value</th>
+                                </tr>
+                            </thead>
+                            <tbody id="nutritionBody">
+                                <tr>
+                                    <td>Calories</td>
+                                    <td>60 kcal</td>
+                                    <td>3%</td>
+                                </tr>
+                                <tr>
+                                    <td>Protein</td>
+                                    <td>2 g</td>
+                                    <td>4%</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbohydrates</td>
+                                    <td>7 g</td>
+                                    <td>2%</td>
+                                </tr>
+                                <tr>
+                                    <td>Fat</td>
+                                    <td>3 g</td>
+                                    <td>4%</td>
+                                </tr>
+                                <tr>
+                                    <td>Fiber</td>
+                                    <td>2 g</td>
+                                    <td>7%</td>
+                                </tr>
+                                <tr>
+                                    <td>Sodium</td>
+                                    <td>80 mg</td>
+                                    <td>3%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3> GreenBite Wellness </h3>
+                <p>"GreenBite is dedicated to helping you live a healthier, balanced life. We share tips, 
+                    recipes, and mindful practices to nourish your body, mind, and soul. Join our community and embrace wellness every day."</p>
+            </div>
+
+            <div class="footer-section links">
+                <h3> Quick Links</h3>
+                <ul>
+                    <li><a href="GreenBite.html">Home</a></li>
+                    <li><a href="Recipes.html">Healthy Recipes</a></li>
+                    <li><a href="Calorie&NutritionCalculator.html">Calorie & Nutrition Calculator</a></li>
+                    <li><a href="Workout.html">Workout</a></li>
+                    <li><a href="Mindfulness.html">Mindfulness</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!--newsletter-->
+            <div class="footer-section newsletter">
+                <h3>Subscribe to Us</h3>
+                <p>"Subscribe for healthy tips, recipes, and mindful living inspiration from GreenBite."</p>
+                <form id="newsletter-form">
+                    <input type="email" id="email" placeholder="Enter your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p id="message"></p>
+            </div>
+
+            <!--social links-->
+            <div class="footer-section socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 WellnessSite. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="Scripts/Recipes.js"></script>
+</body>
+</html>

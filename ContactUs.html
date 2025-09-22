@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="Styles/ContactUs.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar">
+          <li class="logo">
+            <a href="GreenBite.html"><img src="Images/LOGO1.jpg" alt="GREENBITE"></a>
+          </li>
+          <li><a href="GreenBite.html">Home</a></li>
+          <li><a href="Recipes.html">Recipes</a></li>
+          <li><a href="Calorie&NutritionCalculator.html">Calculator</a></li>
+          <li><a href="Workout.html">WorkOut</a></li>
+          <li><a href="Mindfulness.html">Mindfulness</a></li>
+          <li><a href="ContactUs.html">Contact</a></li>
+        </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </ul>
+      </nav>
+    </header>
+    <br />
+    <h1>Give us Your Feedback !</h1>
+    <div class="about-section">
+      <h1 class="contacth1">About Us</h1>
+      <p>
+        At GreenBite, we believe that true wellness comes from balance. Our
+        mission is to inspire healthy living through nutritious meals, mindful
+        practices, and active lifestyles. We are more than just a wellness brand
+        -- we are community that encourages people to nourish their bodies,
+        energize thier minds and embrace a healthier way of life.
+      </p>
+    </div>
+    <br />
+    <h2 class="contacthh2">We Provide You</h2>
+    <div class="co-row">
+      <div class="co-column">
+        <div class="co-card">
+          <img src="Images/AB1.jpg" class="Co-img" alt="Balanced Meals">
+          <div class="co-container">
+            <h2 class="contacth2">Balanced Meals</h2>
+            <p class="A-title">Nutrious, Freash and flavours</p>
+            <p>
+              GreenBite: Food is fuel for both mind and body. Our meals balance
+              nutrients, flavor, and freshness—crafted from whole ingredients
+              with care, making healthy eating simple and enjoyable.
+            </p>
+            <p>
+              <a class="co-btn" href="Recipes.html">Recipes</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="co-column">
+        <div class="co-card">
+          <img src="Images/AB2.jpg" class="Co-img" alt="Exercise">
+          <div class="co-container">
+            <h2 class="contacth2">Exercise</h2>
+            <p class="A-title">Active, energized & Strong</p>
+            <p>
+              Movement is essential for a healthy lifestyle. We offer simple,
+              effective fitness practices—morning stretches or quick workouts—to
+              keep you active, energized, and strong without disrupting your
+              day.
+            </p>
+            <p>
+              <a class="co-btn" href="Workout.html">Workouts</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="co-column">
+        <div class="co-card">
+          <img src="Images/AB3.jpg" class="Co-img" alt="Mindfulness">
+          <div class="co-container">
+            <h2 class="contacth2">Mindfulness</h2>
+            <p class="A-title">Focus, Peace & Stressfress</p>
+            <p>
+              Wellness isn’t just physical—it’s peace of mind. Our mindfulness
+              practices reduce stress, sharpen focus, and nurture emotional
+              balance, helping you live fully in the present.
+            </p>
+            <p>
+              <a class="co-btn" href="Mindfulness.html">Mindfulness</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <!--feedback form-->
+    <h2 class="contacthh2">Contact & Feedback</h2>
+    <p class="text-c">
+      We'd love to hear from you! Whether you have a question, Feedback, or just
+      want to connect, our team is here to help. Fill out the form below and
+      we'll get back to you as soon as possible.
+    </p>
+    <div class="contactContainer">
+      <!--feedback form-->
+      <div>
+        <form id="feedbackform">
+          <label for="name">Name</label>
+          <input type="text" id="name" required>
+
+          <label for="email">Email</label>
+          <input type="text" id="user-email" required>
+
+          <label for="message">Message</label>
+          <textarea id="user-message" rows="5" required></textarea>
+
+          <button type="submit">Submit</button>
+          <p class="confirmation" id="confirmationMsg">
+            Thank you! Your feedback has been saved.
+          </p>
+        </form>
+
+        <!--display saved feedback-->
+        <div class="feedback-list" id="feedbackList">
+          <h3 class="contactheading">Previous Feedback</h3>
+          <div id="feedbackItems"></div>
+        </div>
+      </div>
+
+      <!--embedded map-->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7817708270677!2d79.8591437!3d6.916674100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2596c6211eee7%3A0x12701bfe1429ca07!2sPark%20St%2C%20Colombo!5e0!3m2!1sen!2slk!4v1755546596478!5m2!1sen!2slk"
+        ></iframe>
+      </div>
+    </div>
+    <!--FAQ section-->
+    <div class="faq">
+      <h2 class="faqTitle">Frequently Asked Questions</h2>
+
+      <div class="accordion">What is GreenBite?</div>
+      <div class="panel">
+        <p>
+          GreenBite is a wellness platform promoting mindful eating, fitness,
+          and healthy living.
+        </p>
+      </div>
+
+      <div class="accordion">How do I give feedback?</div>
+      <div class="panel">
+        <p>
+          You can use the feedback form above, and we’ll get back to you soon!
+        </p>
+      </div>
+
+      <div class="accordion">Is GreenBite website is free to use?</div>
+      <div class="panel">
+        <p>
+          Yes! Most of our features are completely free. We may offer premium
+          content or features in the future.
+        </p>
+      </div>
+
+      <div class="accordion">How do I contact support if I face issues?</div>
+      <div class="panel">
+        <p>
+          You can reach out through our <b>Contact Us</b>page, and our support
+          team will assist you within 24 hours
+        </p>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h3>GreenBite Wellness</h3>
+          <p>
+            "GreenBite is dedicated to helping you live a healthier, balanced
+            life. We share tips, recipes, and mindful practices to nourish your
+            body, mind, and soul. Join our community and embrace wellness every
+            day."
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="GreenBite.html">Home</a></li>
+            <li><a href="Recipes.html">Healthy Recipes</a></li>
+            <li>
+              <a href="Calorie&NutritionCalculator.html"
+                >Calorie & Nutrition Calculator</a
+              >
+            </li>
+            <li><a href="Workout.html">Workout</a></li>
+            <li><a href="Mindfulness.html">Mindfulness</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!--newsletter-->
+        <div class="footer-section newsletter">
+          <h3>Subscribe to Us</h3>
+          <p>
+            "Subscribe for healthy tips, recipes, and mindful living inspiration
+            from GreenBite."
+          </p>
+          <form id="newsletter-form">
+            <input
+              type="email"
+              id="newsletter-email"
+              placeholder="Enter your Email"
+              required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p id="newsletter-message"></p>
+        </div>
+
+        <!--social links-->
+        <div class="footer-section socials">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-youtube fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok fa-beat"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-beat"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 WellnessSite. All Rights Reserved.
+      </div>
+    </footer>
+    <script src="Scripts/ContactUs.js"></script>
+  </body>
+</html>
